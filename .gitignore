@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.safetensors
+*.bin
+.env
+.venv/
+saved/
+saved_un_pathed/
+*.log
+.DS_Store
+.idea/
+.vscode/

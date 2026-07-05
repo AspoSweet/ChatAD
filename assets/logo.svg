@@ -1,0 +1,33 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bubble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F8EF7"/>
+      <stop offset="100%" stop-color="#7C5CFC"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8EF7"/>
+      <stop offset="100%" stop-color="#7C5CFC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- chat bubble -->
+  <g>
+    <rect x="14" y="18" rx="26" ry="26" width="150" height="104" fill="url(#bubble)"/>
+    <path d="M 52 118 L 44 146 L 84 120 Z" fill="url(#bubble)"/>
+    <!-- time series line inside bubble -->
+    <polyline points="30,84 44,78 56,82 68,74 80,80 92,34 104,104 116,72 130,76 146,70"
+              fill="none" stroke="#FFFFFF" stroke-width="5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- anomaly markers -->
+    <circle cx="92" cy="34" r="7" fill="#FF5A5F" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="104" cy="104" r="7" fill="#FFB020" stroke="#FFFFFF" stroke-width="3"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="192" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="58" font-weight="700" fill="url(#txt)">ChatAD</text>
+  <text x="194" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="17" font-weight="400" fill="#6B7280" letter-spacing="0.5">
+    Reasoning-Enhanced Time-Series Anomaly Detection
+  </text>
+</svg>

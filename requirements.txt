@@ -1,0 +1,18 @@
+# Core
+openai>=1.40
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+
+# Traditional AD baselines (Other_Results/Code)
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+pyod>=1.1
+torch>=2.1          # required by PyOD deep models (AutoEncoder / VAE / DeepSVDD)
+stumpy>=1.12        # Matrix Profile
+
+# Optional
+salesforce-merlion>=2.0   # LSTM-ED baseline
+darts>=0.27               # forecasting example
+matplotlib>=3.7
